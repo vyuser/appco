@@ -1,0 +1,11 @@
+.skyblue-bg{
+    background-color: #0DB2F9;
+}
+
+.vidcls {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: clamp(8px, 0.833333vw, 16px);
+    border-bottom-right-radius: clamp(8px, 0.833333vw, 16px);
+    border-top: none;
+}
