@@ -222,9 +222,9 @@ body {
     padding: 10px 40px;
     text-align: center;
     border-radius: 100px;
-    border: 2px solid #504ED5;
+    border: 2px solid #0DB2F9;
     position: relative;
-    background-color: #504ED5;
+    background-color: #0DB2F9;
     box-sizing: border-box;
     text-decoration:none;
     color:#FFFFFF;
@@ -232,9 +232,9 @@ body {
     border-color:#fffffe;
 }
 .link-button:hover{
-    color: #F07F09;
+    color: #1717fc;
     background-color: #fffffe;
-    border-color: #F07F09
+    border-color: #0DB2F9
 
 }
     
@@ -505,8 +505,12 @@ li {
     background-color: #3d0683;
   }
 
-  .dark-black {
+  .dark-black-bg {
     background-color: #010123;
+  }
+
+  .dark-blue-bg {
+    background-color: #17174c;
   }
   
   .orangebg1 {
@@ -628,10 +632,13 @@ li {
     }
     .header2,
     .header3,
-    .header4{
+    .header4,
+    .header5{
         
         padding-top: 20px;
         padding-bottom: 5px;
+        padding-left: 5%;
+        padding-right: 5%;
         text-align: center;
     }
 
@@ -1365,6 +1372,10 @@ Site specific styles
         padding-bottom: 20px;
     }
     
+    .vreemo-dia {
+        height: auto;
+        width: 90%;
+    }
     
 }
 
@@ -1409,6 +1420,11 @@ Site specific styles
     .overlap-450 {
         z-index: 5;
         margin-top: -300px;
+    }
+
+    .vreemo-dia {
+        height: auto;
+        width: 100%;
     }
     
 }
