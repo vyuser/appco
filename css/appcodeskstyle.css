@@ -370,7 +370,7 @@ body {
 }
 
 .reemosmalltext {
-    font-family: 'Hubot Sans';
+    font-family: "Roboto", sans-serif;
     color: #363636;
     font-size: 1.0rem;
     font-weight: 400;  
@@ -383,7 +383,7 @@ body {
 
 
 .reemotinytext {
-    font-family: 'Hubot Sans';
+    font-family: "Roboto", sans-serif;
     color: #363636;
     font-size: 0.7rem;
     font-weight: 400;  
@@ -582,6 +582,10 @@ li {
 
     .txt-color-white {
         color: #fffffe;
+    }
+
+    .txt-color-darkblue {
+        color: #000000;
     }
 
     .header1 {
